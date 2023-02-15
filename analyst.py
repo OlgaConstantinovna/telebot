@@ -52,23 +52,5 @@ def house():
 
     plt.show()
 
-    # houses = []
-    # for _ in range(15):
-    #     area = random.randint(100, 300)
-    #     price = random.randint(3, 20)
-    #     houses.append([area, price])
-    # print('Имеющиеся данные о площади и стоимости домов: ')
-    # for house in houses:
-    #     print('Площадь: {} кв.м, стоимость: {} млн. руб.'.format(house[0], house[1]))
-
-   
-
-    # print('\nДанные о стоимости квадратного метра домов: ')
-    # for house in houses:
-    #     cost_per_sqr_m = house[1] / house[0]
-    #     print('Площадь: {}, стоимость квадратного метра: {} руб.'.format(house[0], cost_per_sqr_m))
-
-    # plt.plot(cost_per_sqr_m, 'ro')  
-    # plt.show()
 
 house()        
