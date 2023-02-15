@@ -30,9 +30,25 @@ def house():
     mean_pr = [round(price[i]/houses[i]) for i in range(len(price))]
     print(mean_pr)
 
+    names = ['дом 1',
+            'дом 2',
+            'дом 3',
+            'дом 4',
+            'дом 5',
+            'дом 6',
+            'дом 7',
+            'дом 8',
+            'дом 9',
+            'дом 10',
+            'дом 11',
+            'дом 12',
+            'дом 13',
+            'дом 14',
+            'дом 15']
+
     plt.axhline(y = 50000,color= 'b', linestyle = 'dotted')
-    plt.plot(mean_pr, 'ro')
-    # plt.bar(mean_pr, 200000)
+    # plt.plot(mean_pr, 'ro')
+    plt.bar(names,mean_pr)
 
     plt.show()
 
